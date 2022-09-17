@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+  font-family: "Vazirmatn", sans-serif;
+  box-sizing: border-box;
+  font: bold;
+}
+.logo {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.choose-lang {
+  text-align: center;
+  margin-top: 40px;
+}
+.choose-lang p {
+  font-size: 35px;
+  color: #1d3955;
+}
+.buttons {
+  margin-top: 30px;
+  text-align: center;
+}
+.buttons button {
+  font-size: 50px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.buttons button:nth-child(1) {
+  background-color: #f37631;
+  margin: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.buttons button:nth-child(2) {
+  background-color: #f37631;
+  margin: 10px 20px;
+  color: white;
+  border-radius: 20px;
+}
+.buttons button:nth-child(1):hover {
+  background-color: transparent;
+  color: #f37631;
+}
+.buttons button:nth-child(2):hover {
+  background-color: transparent;
+  color: #f37631;
+}
+
+.arabic-nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  padding: 5px;
+}
+
+.arabic-nav ul li i {
+  font-size: 30px;
+}
+.arabic-nav ul li {
+  cursor: pointer;
+}
+.phone-nav {
+  background-color: #f37631;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.home-nav {
+  color: #f37631;
+  font-size: 40px !important;
+}
+.arabic-nav ul li span {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.services-arabic {
+  direction: rtl;
+  display: none;
+}
+.services p:nth-child(1) {
+  text-align: center;
+  font-size: 30px;
+}
+.services-choose {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.nyaba {
+  text-align: center;
+  color: grey;
+  border: grey solid 1px;
+  padding: 10px;
+  flex: 0 20%;
+  transition: background-color 0.3s ease-in-out;
+  display: none;
+  cursor: pointer;
+}
+.nyaba:hover {
+  background-color: #f37631;
+}
+.nyaba i {
+  font-size: 40px;
+}
+
+.nyaba p {
+  font-size: 20px;
+}
+
+.dark {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.light {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+.modes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-english {
+  display: none;
+}
+
+.page-task {
+  display: none;
+}
+.page-task-eng {
+  display: none;
+}
+
+.CC-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.main-cc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+.width {
+  width: 100%;
+}
+.keyboard-left {
+  display: flex;
+  gap: 100px;
+}
+.CC-info input {
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+.ccv {
+  display: flex;
+  width: 50%;
+}
+.ccv input {
+  margin-left: 10px;
+  width: 50%;
+}
+
+.CC-button {
+  margin: 10px;
+  background-color: #f37631;
+  border: none;
+  color: #1d3955;
+
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+  width: 150px;
+}
+
+.CC-info p {
+  font-size: 40px;
+  font: bold;
+}
+.number-charge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+.charge {
+  background-color: #f37631;
+  padding: 5px;
+  color: #1d3955 !important;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+@media screen and (max-width: 350px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#inputCRD {
+  border: solid 1px red;
+}
+.charge {
+  cursor: pointer;
+}
+.CC-button {
+  cursor: pointer;
+}
+.inputCRD {
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+.clearBtn {
+  font-size: 15px !important;
+}
+#bACK {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 10px;
+
+  border: none;
+
+  width: 150px;
+
+  cursor: pointer;
+  background-color: floralwhite;
+}
+#back-one {
+  margin: 40px auto;
+}
+.in-rit-child {
+  text-align: center;
+  margin: auto;
+}
+.in-rit-childInCCInfo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+.pair-btn-bak {
+  text-align: center;
+}
+.parent-getKeybord {
+  width: 100% !important;
+}
+#Deleted-33 p {
+  font-size: 30px !important;
+}
+
+.card-entering {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation: top-bottom 2s linear infinite;
+}
+.gif i {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  animation: arrow 0.5s infinite linear;
+}
+.downstai {
+  animation: arrow 1s infinite linear;
+  margin-bottom: 20px;
+}
+#gif {
+  display: none;
+  text-align: center;
+  position: relative;
+}
+
+.logoCC {
+  padding: 10px;
+  width: 100%;
+}
+
+.logoCC img {
+  width: 100%;
+}
+
+@keyframes top-bottom {
+  0% {
+    justify-content: center;
+    align-items: center;
+  }
+  50% {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  100% {
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+.classFontDle {
+  font-size: 30px !important;
+}
+
+#top {
+  text-align: center;
+}
+
+@keyframes arrow {
+  0% {
+    right: 45px;
+  }
+  25% {
+    right: 50px;
+  }
+  50% {
+    right: 45px;
+  }
+  75% {
+    right: 50px;
+  }
+  100% {
+    right: 45px;
+  }
+}
